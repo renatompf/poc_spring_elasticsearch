@@ -30,7 +30,7 @@ This project is a **Spring Boot** application that demonstrates the integration 
 ## Architecture
 
 ```mermaid
-graph LR
+graph TD
     %% Client
     Client[Client / Frontend]
 

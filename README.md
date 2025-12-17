@@ -57,7 +57,7 @@ graph TD
     JPARepo --> Postgres
 
     %% Async sync flow
-    Service -->|ProductCreated / Updated| Producer
+    Service -->|ProductCreated / Deleted| Producer
     Producer --> Kafka
     Kafka --> Consumer
     Consumer --> Mapper

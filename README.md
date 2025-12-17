@@ -105,3 +105,4 @@ or
 http://localhost:8080/api-docs
 ```
 
+You will also find some pre-created requests in the [http folder](/http).

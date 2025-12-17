@@ -76,8 +76,8 @@ graph LR
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/renatompf/spring-elastic-poc.git
-cd spring-elastic-poc
+git clone https://github.com/renatompf/poc_spring_elasticsearch.git
+cd poc_spring_elasticsearch
 ```
 
 ### Build the Project

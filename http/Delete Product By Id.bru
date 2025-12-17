@@ -1,0 +1,20 @@
+meta {
+  name: Delete Product By Id
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://localhost:8080/products/60e99bc4-273f-468a-9034-5cb909631725
+  body: none
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+settings {
+  encodeUrl: false
+  timeout: 0
+}
